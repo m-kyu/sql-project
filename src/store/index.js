@@ -1,14 +1,8 @@
 import { createStore } from 'vuex'
+import {testMember} from './modules/test-member';
 
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    testMember
   }
 })
